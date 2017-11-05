@@ -13,8 +13,8 @@ resolve: {
     alias: {
         'react-native': 'react-native-web',
         ...
-        'FlatList': 'react-native-web-lists/FlatList',
-        'SectionList': 'react-native-web-lists/SectionList',
+        'FlatList': 'react-native-web-lists/src/FlatList',
+        'SectionList': 'react-native-web-lists/src/SectionList',
     }
 }
 ```
