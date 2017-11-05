@@ -1,22 +1,23 @@
 {
-  "name": "react-native-web-name",
-  "version": "0.0.0",
-  "description": "React Native for Web implementation of {target module}",
+  "name": "react-native-web-lists",
+  "version": "0.1.0",
+  "description": "React Native for Web implementation of Lists",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-native-web-community/react-native-web-name.git"
+    "url": "git@github.com:react-native-web-community/react-native-web-lists.git"
   },
   "author": {
-    "name": "{name}",
-    "email": "{email}",
-    "url": "{url}"
+    "name": "Louis Lagrange",
+    "email": "lagrange.louis@gmail.com",
+    "url": "https://github.com/Minishlink"
   },
-  "license": "{license, don't forget to add a LICENSE file at the root of the project}",
+  "license": "MIT",
   "keywords": [
     "react-native",
     "react-native-web",
-    "{other keywords}"
+    "FlatList",
+    "SectionList"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
