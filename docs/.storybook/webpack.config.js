@@ -22,6 +22,8 @@ module.exports = (storybookBaseConfig, configType) => {
 
   storybookBaseConfig.resolve.alias = {
     'react-native': 'react-native-web',
+    'FlatList': path.join(__dirname, '../../src/FlatList'),
+    'SectionList': path.join(__dirname, '../../src/SectionList'),
   };
 
   return storybookBaseConfig;
