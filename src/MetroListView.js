@@ -59,7 +59,7 @@ type Props = NormalProps & DefaultProps;
  * some section support tacked on. It is recommended to just use FlatList directly, this component
  * is mostly for debugging and performance comparison.
  */
-class MetroListView extends React.Component<Props, $FlowFixMeState> {
+export default class MetroListView extends React.Component<Props, $FlowFixMeState> {
   scrollToEnd(params?: ?{ animated?: ?boolean }) {
     throw new Error('scrollToEnd not supported in legacy ListView.');
   }
@@ -213,5 +213,3 @@ class MetroListView extends React.Component<Props, $FlowFixMeState> {
     <this.props.SeparatorComponent key={sID + rID} />
   );
 }
-
-module.exports = MetroListView;
