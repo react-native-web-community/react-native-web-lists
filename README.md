@@ -6,22 +6,13 @@ This package uses the legacy implementation (ListView).
 ## Getting started
 `$ npm install react-native-web-lists --save`
 
-Alias the package in your webpack config:
-
-```
-resolve: {
-    alias: {
-        'react-native': 'react-native-web',
-        ...
-        'WebLists': 'react-native-web-lists',
-    }
-}
-```
 
 ## Usage
+Note: This implementation will work on Android and iOS because in `index.native.js` the default classes are exported from `react-native`
+
 ```js
-import { FlatList } from 'WebLists'; // don't import from react-native
-import { SectionList } from 'WebLists'; // don't import from react-native
+import { FlatList } from 'react-native-web-lists'; // don't import from react-native
+import { SectionList } from 'react-native-web-lists'; // don't import from react-native
 ```
 
 See [RN's docs](https://facebook.github.io/react-native/docs/flatlist.html).
