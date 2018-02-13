@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "React Native for Web implementation of Lists",
   "main": "src/index.js",
+  "react-native": "src/index.native.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:react-native-web-community/react-native-web-lists.git"

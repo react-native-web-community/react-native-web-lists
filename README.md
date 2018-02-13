@@ -13,16 +13,15 @@ resolve: {
     alias: {
         'react-native': 'react-native-web',
         ...
-        'FlatList': 'react-native-web-lists/src/FlatList',
-        'SectionList': 'react-native-web-lists/src/SectionList',
+        'WebLists': 'react-native-web-lists',
     }
 }
 ```
 
 ## Usage
 ```js
-import FlatList from 'FlatList'; // don't import from react-native
-import SectionList from 'SectionList'; // don't import from react-native
+import { FlatList } from 'WebLists'; // don't import from react-native
+import { SectionList } from 'WebLists'; // don't import from react-native
 ```
 
 See [RN's docs](https://facebook.github.io/react-native/docs/flatlist.html).
