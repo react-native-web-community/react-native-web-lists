@@ -1,5 +1,4 @@
 import FlatList from './FlatList';
 import SectionList from './SectionList';
 
-export FlatList;
-export SectionList;
+export {FlatList, SectionList};
