@@ -135,6 +135,7 @@ export default class MetroListView extends React.Component<Props, $FlowFixMeStat
       renderItem,
       keyExtractor,
       SectionSeparatorComponent,
+      SeparatorComponent,
       ...rest
     } = this.props;
     return (
@@ -153,7 +154,7 @@ export default class MetroListView extends React.Component<Props, $FlowFixMeStat
             : ListEmptyComponent && this._renderEmpty
         }
         renderSectionHeader={this.props.sections && this._renderSectionHeader}
-        renderSeparator={this.props.SeparatorComponent && this._renderSeparator}
+        renderSeparator={SeparatorComponent && this._renderSeparator}
       />
     );
   }
