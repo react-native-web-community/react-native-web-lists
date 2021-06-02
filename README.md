@@ -1,6 +1,8 @@
 # react-native-web-lists
 > React Native for Web implementation of Lists
 
+**DEPRECATED: `react-native-web` now support FlatList, this package is now useless.**
+
 This package uses the legacy implementation (ListView).
 
 ## Getting started
